@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Happy New Year 2026 - Premium Gift from Rajveer Gurjar">
+    <meta name="theme-color" content="#0f0f23">
+    <title>🎉 Happy New Year 2026 | Premium Gift</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        /* Critical CSS for initial load */
+        .container { opacity: 0; transform: translateY(20px); }
+        .loaded .container {
+            opacity: 1;
+            transform: translateY(0);
+            transition: all 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+    </style>
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation"></div>
+    
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Year Badge -->
+        <div class="year-badge">
+            <i class="fas fa-star"></i> 2026 <i class="fas fa-star"></i>
+        </div>
+        
+        <!-- Header -->
+        <div class="header">
+            <h1>New Year 2026</h1>
+            <p class="subtitle">Unwrap your special gift for heartfelt wishes</p>
+        </div>
+        
+        <!-- Gift Section -->
+        <div class="gift-section">
+            <!-- Premium Gift Box -->
+            <div class="premium-gift" tabindex="0" role="button" aria-label="Open New Year Gift">
+                <div class="gift-box">
+                    <!-- Ribbon -->
+                    <div class="ribbon">
+                        <div class="ribbon-center">
+                            <i class="fas fa-gift"></i>
+                        </div>
+                        <div class="ribbon-loop left"></div>
+                        <div class="ribbon-loop right"></div>
+                    </div>
+                    
+                    <!-- Gift Parts -->
+                    <div class="gift-lid"></div>
+                    <div class="gift-body"></div>
+                </div>
+            </div>
+            
+            <!-- Instruction -->
+            <div class="instruction">
+                <i class="fas fa-hand-pointer"></i>
+                Click or tap to open gift
+            </div>
+            
+            <!-- Premium Message -->
+            <div class="premium-message">
+                <div class="message-content">
+                    <h2>
+                        <i class="fas fa-sparkles"></i>
+                        Happy New Year 2026!
+                        <i class="fas fa-sparkles"></i>
+                    </h2>
+                    
+                    <p>Wishing you and your family a spectacular New Year filled with joy, success, and prosperity!</p>
+                    
+                    <p>May 2026 bring you endless opportunities, wonderful memories, and all the happiness you deserve.</p>
+                    
+                    <p>Here's to new beginnings, achieving dreams, and creating beautiful moments together!</p>
+                    
+                    <div class="signature">
+                        Warm regards,<br>
+                        Rajveer Gurjar
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <div class="premium-footer">
+            <p>Made with <i class="fas fa-heart" style="color:#ff416c"></i> for New Year 2026</p>
+            <p>Spread love, joy, and positivity!</p>
+            
+            <div class="social-icons">
+                <a href="#" aria-label="Share on Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Share on Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Share on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                <a href="#" aria-label="Copy Link"><i class="fas fa-link"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+    
+    <!-- Load animation -->
+    <script>
+        window.addEventListener('load', function() {
+            document.body.classList.add('loaded');
+            
+            // Add cursor effect
+            document.querySelector('.premium-gift').style.cursor = 'pointer';
+        });
+    </script>
+</body>
+</html>
